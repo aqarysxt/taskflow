@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(npm run:*)",
+      "Bash(timeout 30 npx vite build)",
+      "Bash(node -e \":*)",
+      "Bash(node_modules/.bin/vite build:*)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -c \"import os; s=open\\(''src/db.js''\\).read\\(\\); print\\(len\\(s\\),''bytes OK''\\)\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(/Users/aqaryszarlykov/Desktop/index/start-dev.sh:*)",
+      "Bash(chmod +x /Users/aqaryszarlykov/Desktop/index/start-dev.sh)",
+      "Bash(/Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/node node_modules/.bin/vite build --logLevel info)",
+      "Bash(echo \"Exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(/Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/node -e \":*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(/Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/node node_modules/.bin/vite optimize --force)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(/Users/aqaryszarlykov/Desktop/index/client/node_modules/esbuild/bin/esbuild --version)",
+      "Bash(/Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/npm install:*)",
+      "Bash(python3 -c \"import json,sys; p=json.load\\(sys.stdin\\); print\\(''''version:'''', p.get\\(''''version''''\\)\\); print\\(''''optionalDeps:'''', list\\(p.get\\(''''optionalDependencies'''',{}\\).keys\\(\\)\\)\\)\")",
+      "Bash(file /Users/aqaryszarlykov/Desktop/index/client/node_modules/@rolldown/binding-darwin-arm64/*.node)",
+      "Bash(timeout 10 /Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/node -e \":*)",
+      "Bash(xattr -l /Users/aqaryszarlykov/Desktop/index/client/node_modules/@rolldown/binding-darwin-arm64/rolldown-binding.darwin-arm64.node)",
+      "Bash(find /Users/aqaryszarlykov/Desktop/index/client/node_modules -name *.node)",
+      "Bash(/Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/node --version)",
+      "Bash(/Users/aqaryszarlykov/.nvm/versions/node/v24.11.0/bin/node -p \"process.arch + '' '' + process.platform\")",
+      "Bash(curl -s --max-time 5 http://localhost:5173)",
+      "Bash(curl -sv --max-time 5 http://localhost:5173/)",
+      "Bash(kill -9 28718 35346 35441 35757 35777 35791 35850 36036 35735 29078 29103 29131 29134 36697)",
+      "Bash(lsof -ti:5173)",
+      "Bash(xargs kill:*)",
+      "Bash(ls -la /Users/aqaryszarlykov/Desktop/index/client/.npm-lock* /Users/aqaryszarlykov/Desktop/index/client/node_modules/.package-lock.json)",
+      "Bash(python3 -c \"import os; f=''/Users/aqaryszarlykov/Desktop/index/client/package-lock.json''; print\\(os.path.exists\\(f\\), os.path.getsize\\(f\\) if os.path.exists\\(f\\) else 0\\)\")",
+      "Bash(kill 37545)",
+      "Bash(xattr -rl /Users/aqaryszarlykov/Desktop/index/client/node_modules/@rolldown/)",
+      "Bash(xattr -rl /Users/aqaryszarlykov/Desktop/index/client/node_modules/lightningcss-darwin-arm64/)"
+    ]
+  }
+}
